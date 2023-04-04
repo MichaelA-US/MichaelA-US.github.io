@@ -6,12 +6,12 @@ on:
 
 jobs:
   build:
-    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v1
-
+        with:
+          submoduleS: true
       - name: Hugo Deploy Github Pages
         uses: benmatselby/hugo-deploy-gh-pages@v2.1.0
         env:
