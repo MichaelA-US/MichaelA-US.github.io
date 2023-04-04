@@ -1,0 +1,46 @@
+baseURL = 'https://MichaelA-US.github.io'
+languageCode = 'en-us'
+DefaultContentLanguage = "en" # Change this to change the site's language
+title = 'MichaelA-US'
+theme = "PaperMod"
+
+[params]
+hideFooter = true
+showReadingTime = true
+showBreadCrumbs = true
+
+[params.homeInfoParams]
+title = "Hey"
+content = "I'm Michael!"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/MichaelA-US"
+
+[params.copyright]
+name = "Michael"
+url = "https://MichaelA-US.github.io"
+prefix = "[https://MichaelA-US.github.io by Michael](https://MichaelA-US.github.io)"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "All posts"
+url = "/posts/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search"
+weight = 20
