@@ -27,7 +27,7 @@ prefix = "[https://MichaelA-US.github.io by Michael](https://MichaelA-US.github.
 enabled = true
 title = "Michael's blog"
 subtitle = "A place to post my projects!"
-imageUrl = "static/profilepic.jpg"
+imageUrl = "/profilepic.png"
 [[params.profileMode.buttons]]
 name = "posts"
 url = "/posts"
