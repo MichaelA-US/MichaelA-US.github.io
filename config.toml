@@ -10,7 +10,8 @@ showReadingTime = true
 showBreadCrumbs = true
 
 [params.homeInfoParams]
-title = "Hey"
+title = "Michael's Blog"
+description = "Github pages for MichaelA-US"
 content = "I'm Michael!"
 
 [[params.socialIcons]]
@@ -21,6 +22,15 @@ url = "https://github.com/MichaelA-US"
 name = "Michael"
 url = "https://MichaelA-US.github.io"
 prefix = "[https://MichaelA-US.github.io by Michael](https://MichaelA-US.github.io)"
+
+[params.profileMode]
+enabled = true
+title = "Michael's blog"
+subtitle = "A place to post my projects!"
+imageUrl = "static/profilepic.jpg"
+[[params.profileMode.buttons]]
+name = "posts"
+url = "/posts"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
